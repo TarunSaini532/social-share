@@ -1,0 +1,308 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>SocialBook</title>
+    <link rel="stylesheet" href="style.css" />
+    <script
+      src="https://kit.fontawesome.com/8c32ce63df.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <nav>
+      <div class="navLeft">
+        <img src="images/logo.png" class="logo" />
+        <ul>
+          <li><img src="images/notification.png" /></li>
+          <li><img src="images/inbox.png" /></li>
+          <li><img src="images/video.png" /></li>
+        </ul>
+      </div>
+      <div class="navRight">
+        <div class="searchbox">
+          <img src="images/search.png" />
+          <input type="text" placeholder="Search" />
+        </div>
+        <div class="navUserIcon online">
+          <img src="images/profile-pic.png" />
+        </div>
+      </div>
+    </nav>
+
+    <div class="container">
+      <!------------ Left Side Bar ----------- -->
+      <div class="leftSideBar">
+        <div class="impLinks">
+          <a href="#"><img src="images/news.png" />Latest News</a>
+          <a href="#"><img src="images/friends.png" />Friends</a>
+          <a href="#"><img src="images/group.png" />Group</a>
+          <a href="#"><img src="images/marketplace.png" />Market Place</a>
+          <a href="#"><img src="images/watch.png" />Watch</a>
+          <a>See More</a>
+        </div>
+        <div class="shortcutLinks">
+          <p>Your Shortcuts</p>
+          <a href="#"><img src="images/shortcut-1.png" />Web Developers</a>
+          <a href="#"><img src="images/shortcut-2.png" />Web Design Course</a>
+
+          <a href="#"
+            ><img src="images/shortcut-3.png" />Full Stack Development</a
+          >
+          <a href="#"><img src="images/shortcut-4.png" />Website Experts</a>
+        </div>
+      </div>
+      <!-- -------Main Content--------- -->
+
+      <div class="mainContent">
+        <div class="storyGallery">
+          <div class="story story1">
+            <img src="images/upload.png" />
+            <p>Post Story</p>
+          </div>
+          <div class="story story2">
+            <img src="images/member-1.png" />
+            <p>Alison</p>
+          </div>
+          <div class="story story3">
+            <img src="images/member-2.png" />
+            <p>Jackson</p>
+          </div>
+          <div class="story story4">
+            <img src="images/member-3.png" />
+            <p>Samona</p>
+          </div>
+          <div class="story story5">
+            <img src="images/member-4.png" />
+            <p>John Doe</p>
+          </div>
+        </div>
+
+        <div class="writePostContainer">
+          <div class="userProfile">
+            <img src="images/profile-pic.png" />
+            <div>
+              <p>John Nicholson</p>
+              <small>Public <i class="fa-solid fa-caret-down"></i></small>
+            </div>
+          </div>
+
+          <div class="postInputContainer">
+            <textarea
+              rows="3"
+              cols="13"
+              placeholder="What's on your mind, John?"
+            ></textarea>
+            <div class="addPostLinks">
+              <a href="#"><img src="images/live-video.png" />Live Video</a>
+              <a href="#"><img src="images/photo.png" />Photo/Video</a>
+              <a href="#"><img src="images/feeling.png" />Feeling/Activity</a>
+              <div class="share" onclick="shareMenuToggle()">
+                <a
+                  ><img src="images/share.png" />
+                  <p>Share</p>
+                </a>
+              </div>
+            </div>
+
+            <div class="shareButton">
+              <a href="https://twitter.com/compose/tweet"
+                ><img src="share/twitter.png" alt="twitter"
+              /></a>
+              <a href="https://www.instagram.com/tarunsaini_532" target="_blank"
+                ><img src="share/instagram1.png" alt="instagram"
+              /></a>
+
+              <a
+                href="https://www.youtube.com/channel/UCGoapbqZggyGa0Zk1kmKh_Q/community?show_create_dialog=1"
+                ><img src="share/youtube.png" alt="youtube"
+              /></a>
+              <a
+                href="whatsapp://send?text=file:///C:/Users/tarun/OneDrive/Project/website/index.html#"
+                ><img src="share/whatsapp1.png" alt="whatsapp"
+              /></a>
+              <a
+                href="https://www.facebook.com/sharer/sharer.php?u=www.travelstories.com"
+                ><img
+                  src="share/facebook1.png"
+                  alt="facebook"
+                  height="50px"
+                  width="50px"
+              /></a>
+              <a
+                href="https://www.linkedin.com/sharing/share-offsite/?url=www.travelstories.com"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <img
+                  src="share/LI-In-Bug.png"
+                  alt="linkedin"
+                  width="50px"
+                  height="40px"
+              /></a>
+            </div>
+          </div>
+        </div>
+        <div class="postContainer">
+          <div class="postRow">
+            <div class="userProfile">
+              <img src="images/profile-pic.png" />
+              <div>
+                <p>John Nicholson</p>
+                <span>June 20 2021, 13:40pm</span>
+              </div>
+            </div>
+            <a href="#"><i class="fas fa-ellipsis-v"></i></a>
+          </div>
+
+          <p class="postText">
+            🚀 Exciting News! Introducing our latest project, the
+            <span>"Social Share Button"!</span> 💡🌟 We're thrilled to kickstart
+            this new venture that aims to simplify and amplify your online
+            presence. In a world where connectivity and sharing are paramount,
+            our team has crafted a sleek and user-friendly solution to
+            effortlessly share your favorite content across multiple social
+            media platforms. 📲✨ With the "Social Share Button," you'll be able
+            to spread the word about your passions, discoveries, and creations
+            with just a click. Stay tuned for updates, sneak peeks, and all the
+            details about this innovative tool that will transform the way you
+            interact with your digital world. Together, let's take social
+            sharing to a whole new level! 🌐👥<a href="#">#SocialShareButton</a>
+            <a href="#">#NewBeginnings</a> <a href="#">#StayConnected</a>
+            <a href="#">#ShareWithEase</a>
+            🚀👏
+          </p>
+          <img src="images/feed-image-1.png" class="postImg" />
+
+          <div class="postRow">
+            <div class="activityIcons">
+              <div>
+                <a href="#"><img src="images/like-blue.png" /></a> 120
+              </div>
+              <div>
+                <a href="#"><img src="images/comments.png" /></a> 45
+              </div>
+              <div class="share" onclick="shareMenuToggle1()">
+                <a
+                  ><img src="images/share.png" />
+                  Share
+                </a>
+              </div>
+              <div class="shareButton1">
+                <a href="https://twitter.com/compose/tweet"
+                  ><img src="share/twitter.png" alt="twitter"
+                /></a>
+                <a
+                  href="https://www.instagram.com/tarunsaini_532"
+                  target="_blank"
+                  ><img src="share/instagram1.png" alt="instagram"
+                /></a>
+
+                <a
+                  href="https://www.youtube.com/channel/UCGoapbqZggyGa0Zk1kmKh_Q/community?show_create_dialog=1"
+                  ><img src="share/youtube.png" alt="youtube"
+                /></a>
+                <a href="whatsapp://send?text=Your message here"
+                  ><img src="share/whatsapp1.png" alt="whatsapp"
+                /></a>
+                <a
+                  href="https://www.facebook.com/sharer/sharer.php?u=www.travelstories.com"
+                  ><img
+                    src="share/facebook1.png"
+                    alt="facebook"
+                    height="50px"
+                    width="50px"
+                  />
+                </a>
+                <a
+                  href="https://www.linkedin.com/sharing/share-offsite/?url=www.travelstories.com"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <img
+                    src="share/LI-In-Bug.png"
+                    alt="linkedin"
+                    width="50px"
+                    height="40px"
+                /></a>
+              </div>
+            </div>
+            <div class="postProfileIcon">
+              <img src="images/profile-pic.png" /><i
+                class="fa-solid fa-caret-down"
+              ></i>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- ----------Right Side Bar------------ -->
+      <div class="rightSideBar">
+        <div class="sideBarTitle">
+          <h4>Events</h4>
+          <a href="#">See All</a>
+        </div>
+
+        <div class="event">
+          <div class="leftEvent">
+            <h3>18</h3>
+            <span>March</span>
+          </div>
+          <div class="rightEvent">
+            <h4>Social Media</h4>
+            <p><i class="fa-solid fa-location-dot"></i> Willson Tech Park</p>
+            <a href="#">More Info</a>
+          </div>
+        </div>
+
+        <div class="event">
+          <div class="leftEvent">
+            <h3>22</h3>
+            <span>June</span>
+          </div>
+          <div class="rightEvent">
+            <h4>Mobile Marketing</h4>
+            <p><i class="fa-solid fa-location-dot"></i> Willson Tech Park</p>
+            <a href="#">More Info</a>
+          </div>
+        </div>
+
+        <div class="sideBarTitle">
+          <h4>Advertisement</h4>
+          <a href="#">Close</a>
+        </div>
+
+        <img src="images/advertisement.png" class="sidebarAds" />
+
+        <div class="sideBarTitle">
+          <h4>Conversation</h4>
+          <a href="#">Hide Chat</a>
+        </div>
+
+        <div class="onlineList">
+          <div class="online">
+            <img src="images/member-1.png" />
+          </div>
+          <p>Alison Mina</p>
+        </div>
+        <div class="onlineList">
+          <div class="online">
+            <img src="images/member-2.png" />
+          </div>
+          <p>Jackson Aston</p>
+        </div>
+        <div class="onlineList">
+          <div class="online">
+            <img src="images/member-3.png" />
+          </div>
+          <p>Samona Rose</p>
+        </div>
+      </div>
+    </div>
+    <div class="footer">
+      <p>&copy;Copyright 2023 - Tarun Saini</p>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
